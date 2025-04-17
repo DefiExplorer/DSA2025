@@ -1,0 +1,9 @@
+Selection Sort:
+Can be optimized with less variables I used in my code.
+With inner loop start index set equal to outer loop index.
+Time Complexity is O(N**2) in all cases (Worst, Best, Average).
+
+Bubble Sort:
+Can be optimized with a boolean is_sorted check!
+so that if input array is already sorted, it returns early with O(N) time complexity.
+Otherwise the actual Time Complexity is O(N**2) only.
