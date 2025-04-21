@@ -1,1 +1,8 @@
 Few Important Questions solved so far, approach I used.
+Ques 1:
+https://www.geeksforgeeks.org/problems/multiply-two-strings/1
+
+Given the constraints (strings of size 1 to 10^3) and the requirement to multiply them, using BigInteger is indeed the correct and most robust approach. It avoids the overflow issues that would inevitably arise with int or long.
+
+My approach: finding each digit or negative character "-" and constructing the integer but it needs to be adapted to use BigInteger methods for calculations
+and pass test cases at GFG.
