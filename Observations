@@ -4,6 +4,38 @@ With inner loop start index set equal to outer loop index.
 Time Complexity is O(N**2) in all cases (Worst, Best, Average).
 
 Bubble Sort:
+Suppose: [2,1,3,0]
+[1,2,0,3]....consecutive swaps.
+[1,0,2]...[3]....again....separated elements which are already sorted to right.
+[0,1].....[2,3]....again, till no more swap is possible.
+
 Can be optimized with a boolean is_sorted check!
 so that if input array is already sorted, it returns early with O(N) time complexity.
 Otherwise the actual Time Complexity is O(N**2) only.
+
+Insertion Sor:
+Fetching 1 element and sorting the array.
+We start small with 1 element and gradually sort the entire array.
+My Observation is that Insertion sort starts with subarray and does bubble sort like operation.
+Suppose: [3,2,1]
+[3].......key element 3, sorted already..Therefore in our code we start with position 2nd.
+[3,2]......key element 2, unsorted form.
+[2,3]......key 2 swaps position with 3.
+[2,3,1]....key element 1, unsorted form.
+[2,1,3]....key 1 swaps 3, still unsorted.
+[1,2,3]....key 1 swaps 2, now fully sorted.
+........
+
+Merge Sort:
+We play with indexes and use recursive calls, use a temp array and make changes in original array element position.
+Implement a merger function that merges 2 sorted arrays into single array.
+Recursive function returns when single element array is reached and than merging happens.
+With each merge we gradually build smaller portions of sorted array.
+Finally, end up 2 1 left sorted array and 1 right sorted array, merge function checks element wise and replaces postion in Original Array!
+
+Quick Sort:
+Slightly better than Merge Sort.
+Uses Recursion, we select a pivot element (1st in my case, any element can become pivot) -> [Min_to_Pivot] [Pivot] [Max_to_Pivot] <-
+We have low, high, partition_index, i and j variables to represent left and right to perform swaps!
+The Partition function returns the index.
+Quick Sort is an example of Divide and Conquer Algorithm.
