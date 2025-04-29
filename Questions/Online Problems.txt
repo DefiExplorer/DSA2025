@@ -1,3 +1,23 @@
 Contains list of problems solved online.
-
+Basic:
+https://practice.geeksforgeeks.org/problems/addition-of-two-numbers0812/1
+https://practice.geeksforgeeks.org/problems/prime-number2314/1
+https://practice.geeksforgeeks.org/problems/lcm-and-gcd4516/1
+https://practice.geeksforgeeks.org/problems/count-squares3649/1
+https://practice.geeksforgeeks.org/problems/count-digits5716/1
+https://practice.geeksforgeeks.org/problems/armstrong-numbers2727/1
+https://practice.geeksforgeeks.org/problems/print-table0303/1
+https://practice.geeksforgeeks.org/problems/reversing-the-equation2205/1
+https://practice.geeksforgeeks.org/problems/all-divisors-of-a-number/1
+https://practice.geeksforgeeks.org/problems/sum-of-digit-is-pallindrome-or-not2751/1
+https://leetcode.com/problems/add-digits/
+https://practice.geeksforgeeks.org/problems/sum-of-all-prime-numbers-between-1-and-n4404/1
+https://leetcode.com/problems/smallest-even-multiple/
+https://leetcode.com/problems/number-of-common-factors/
+https://practice.geeksforgeeks.org/problems/multiply-two-strings/1
+https://practice.geeksforgeeks.org/problems/largest-prime-factor2601/1
+https://leetcode.com/problems/count-primes/
+-------------------------------------------
+Advance:
 https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
+
